@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana talk</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        textarea{
+            width: 80%;
+            height: 13vh;
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+        }
+    </style>
 </head>
 <body>
-    
-    
+    <h1>Talk Banana</h1>
+    <textarea placeholder="give me your sentence i will convert it to mongo" 
+    id="text-input" ></textarea>
+    <button id="click-btn">Translate</button>
     <script src="app.js"></script>
 </body>
 </html>
