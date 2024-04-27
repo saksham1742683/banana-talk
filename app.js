@@ -1,10 +1,10 @@
 const btn= document.querySelector('#click-btn')
 const textinput= document.querySelector('#text-input')
-console.log(textinput);
+const outputDiv=document.querySelector('#output')
+
 
 function newFunction() {
-    console.log('clicked button');
-    console.log('input :' , textinput.value);
+  outputDiv.innerText =  "123jdkfndskfskfj"+ textinput.value ;
 }; 
 
 

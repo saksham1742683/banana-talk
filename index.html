@@ -12,6 +12,14 @@
             padding: 1rem;
             margin: 1rem;
         }
+        #output{
+            border: 1px solid black;
+            width: 80%;
+            height: 13vh;
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -19,6 +27,8 @@
     <textarea placeholder="give me your sentence i will convert it to mongo" 
     id="text-input" ></textarea>
     <button id="click-btn">Translate</button>
+    <div style="font-size: 1.5rem;"> Output will come here 👇 </div>
+    <div id="output"></div>
     <script src="app.js"></script>
 </body>
 </html>
